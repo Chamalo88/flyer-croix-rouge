@@ -12,13 +12,14 @@
     
   }
   body {
-    min-width: 320px;
+    min-height: 360px;
+    min-width: auto;
   }
 
   section {
     padding-top: 5px;
     min-height: auto;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -26,12 +27,28 @@
     text-align: center;
   }
 
-  #home {
+  #home,div {
     margin-top: 5px;
     background-color: var(--couleur2);
     background-size: cover;
+    min-height: 360px;
+    min-width: 640px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
   }
+.one{
+ min-height: auto;
+ min-width: 640px;
+display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ text-align: center;
 
+}
 
 
 img.clign{
